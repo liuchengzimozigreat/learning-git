@@ -1,0 +1,9 @@
+step1: create SSH Key
+    command: ssh-keygen -t rsa -C "youremail@example.com"
+    a directory named .ssh will be created, in which two files existed, id_rsa is private key and id_rsa.pub is public key.
+
+step2: sign in GitHub and add SSH Key(public key content)
+
+step3: connect to the remote repository by run "git remote add origin git@github.com:michaelliao/learngit.git" in your local repositoryi.
+
+step4: push your local repository to remote repository by "git push -u origin master" 
