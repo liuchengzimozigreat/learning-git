@@ -1,0 +1,52 @@
+# this file is to record commands in learning git.
+
+some terms:
+    工作区/Working Directory: Directory you could see in your computer.
+
+    版本库/Repository: A hidden directory in Working Directory including a stage, master, and Head--a pointer pointing to master, which could help us to reset our repository.
+    暂存区/stage/index: "git add <file>" is actually adding <file> into stage
+    分支/master: "git commit -m "reminders"" is actually committing file to master.
+
+1: git init
+	initialize a git repository in a directory
+
+2: git add <file>
+	add your file into workspace/stage controled by git
+	you can add more than 1 file at once
+
+3: git commit -m "reminders/notices(提示信息)"
+	commit files that you added in workspace/stage to the version repository--controled by git
+
+4: git status
+	always use this command to see the current status
+    untracked files: means a new file hasn't been added.
+
+5: git diff <file>
+	help you check the differerce of between the <file> committed into the repository and unstaged <file>
+
+6: git log / git log --pretty=oneline
+	show the records of your previous activities.
+	add "--pretty=oneline" would simplify the message and show the main information
+
+7: git reset --hard HEAD^/(commit id)
+	make your repository go back to the last version/ the corresponding version of committing id
+
+8: git reflog
+	show information of all the committing activities including committing ids and corresponding reminders/notices
+
+
+9: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
