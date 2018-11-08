@@ -22,7 +22,7 @@ some terms:
     untracked files: means a new file hasn't been added.
 
 5: git diff <file>
-	help you check the differerce of between the <file> committed into the repository and unstaged <file>
+	help you check the differerce of between the <file> added into the stage and unstaged <file>
 
 6: git log / git log --pretty=oneline
 	show the records of your previous activities.
@@ -38,7 +38,8 @@ some terms:
 9: git clean -f
     delete all the untracked files in your Working Directory. Files not being added to the stage are all untracked.
 
-
+10: git diff HEAD -- <file>
+    show the difference between <file> in Working Directory and HEAD in Repository
 
 
 
