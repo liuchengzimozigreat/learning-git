@@ -35,7 +35,8 @@ some terms:
 	show information of all the committing activities including committing ids and corresponding reminders/notices
 
 
-9: 
+9: git clean -f
+    delete all the untracked files in your Working Directory. Files not being added to the stage are all untracked.
 
 
 
