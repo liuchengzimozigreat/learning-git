@@ -41,8 +41,11 @@ some terms:
 10: git diff HEAD -- <file>
     show the difference between <file> in Working Directory and HEAD in Repository
 
-
-
+11: git checkout -- <file>
+    withdrawl all modifications in Working Directory.
+    two situations:
+    1: modified but not staged, then run this command, <file> will go back to the same status in Repository;
+    2: staged but modified again, then run this command, <file> will go back to the same status in stage.
 
 
 
