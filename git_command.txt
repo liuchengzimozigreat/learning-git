@@ -47,7 +47,8 @@ some terms:
     1: modified but not staged, then run this command, <file> will go back to the same status in Repository;
     2: staged but modified again, then run this command, <file> will go back to the same status in stage.
 
-
+12: git reset HEAD <file>
+    withdrawl modification added into stage, then the <file> status became modified but unstaged.
 
 
 
