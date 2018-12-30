@@ -49,6 +49,8 @@ some terms:
 
 12: git reset HEAD <file>
     withdrawl modification added into stage, then the <file> status became modified but unstaged.
+    git reset <file>
+    可以将暂存区（staged状态）（已经add但暂未提交的文件）文件扔回工作区（unstaged状态），然后再用11的方法，把修改撤销掉。
 
 
 
