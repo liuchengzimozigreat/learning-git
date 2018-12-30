@@ -1,4 +1,5 @@
 # this file is to record commands in learning git.
+# 解决git bash中git status 不能正常显示中文问题：https://blog.csdn.net/cjopengler/article/details/46585319
 
 some terms:
     工作区/Working Directory: Directory you could see in your computer.
