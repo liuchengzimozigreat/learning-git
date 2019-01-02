@@ -1,5 +1,7 @@
 # this file is to record commands in learning git.
 
+在git bash中切换硬盘分区，比如切换到H盘，你可以这样做——cd h:——，切换文件夹的操作和Linux无二。
+
 some terms:
     工作区/Working Directory: Directory you could see in your computer.
 
