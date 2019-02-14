@@ -2,11 +2,11 @@
 
 在git bash中切换硬盘分区，比如切换到H盘，你可以这样做——cd h:——，切换文件夹的操作和Linux无二。
 
-some terms:
-    工作区/Working Directory: Directory you could see in your computer.
-    版本库/Repository: A hidden directory in Working Directory including a stage, master, and Head--a pointer pointing to master, which could help us to reset our repository.
-    暂存区/stage/index: "git add <file>" is actually adding <file> into stage
-    分支/master: "git commit -m "reminders"" is actually committing file to master.
+some terms:<br>
+>*工作区/Working Directory: Directory you could see in your computer.
+>*版本库/Repository: A hidden directory in Working Directory including a stage, master, and Head--a pointer pointing to master, which could help us to reset our repository.
+>*暂存区/stage/index: "git add <file>" is actually adding <file> into stage
+>*分支/master: "git commit -m "reminders"" is actually committing file to master.
 
 1: git init<br>
 	initialize a git repository in a directory
