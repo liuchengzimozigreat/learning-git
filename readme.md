@@ -9,7 +9,7 @@ some terms:
     暂存区/stage/index: "git add <file>" is actually adding <file> into stage
     分支/master: "git commit -m "reminders"" is actually committing file to master.
 
-1: git init
+1: git init<br>
 	initialize a git repository in a directory
 
 2: git add <file><br>
