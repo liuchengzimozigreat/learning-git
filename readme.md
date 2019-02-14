@@ -2,6 +2,12 @@
 
 在git bash中切换硬盘分区，比如切换到H盘，你可以这样做——cd h:——，切换文件夹的操作和Linux无二。
 
+默认表格：
+First Header | Second Header | Third Header
+------------ | ------------- | ------------
+Content Cell | Content Cell  | Content Cell
+Content Cell | Content Cell  | Content Cell
+
 some terms:<br>
 术语 | 含义
 --- | ---
