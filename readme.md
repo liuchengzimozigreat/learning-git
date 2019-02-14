@@ -12,7 +12,7 @@ some terms:<br>
 **分支/master:** | "git commit -m "reminders"" is actually committing file to master.<br>
 
 **1: git init**<br>
-  initialize a git repository in a directory
+>initialize a git repository in a directory
 
 **2: git add <file>**<br>
 	add your file into workspace/stage controled by git
