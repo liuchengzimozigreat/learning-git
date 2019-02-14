@@ -11,8 +11,8 @@ some terms:<br>
 **暂存区/stage/index:** | "git add <file>" is actually adding <file> into stage<br>
 **分支/master:** | "git commit -m "reminders"" is actually committing file to master.<br>
 
-**1: git init**<br>  
-	initialize a git repository in a directory
+**1: git init**<br>
+  initialize a git repository in a directory
 
 **2: git add <file>**<br>
 	add your file into workspace/stage controled by git
