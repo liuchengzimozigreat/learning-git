@@ -12,7 +12,7 @@ some terms:
 1: git init
 	initialize a git repository in a directory
 
-2: git add <file>
+2: git add <file><br>
 	add your file into workspace/stage controled by git
 	you can add more than 1 file at once
 
