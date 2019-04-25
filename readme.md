@@ -56,12 +56,11 @@ some terms:<br>
     git reset <file>
     可以将暂存区（staged状态）（已经add但暂未提交的文件）文件扔回工作区（unstaged状态），然后再用11的方法，把修改撤销掉。
 	
-**13: git add -u<br>
-	将文件的修改、文件的删除，添加到暂存区
-	git add -u：将文件的修改、文件的删除，添加到暂存区。
-	git add .：将文件的修改，文件的新建，添加到暂存区。
-	git add -A：将文件的修改，文件的删除，文件的新建，添加到暂存区。
-	reference:[it add -u与-A .三者的区别](https://blog.csdn.net/GarfieldEr007/article/details/83829693)
+**13: git add -u**<br>
+	git add -u：将文件的修改、文件的删除，添加到暂存区。<br>
+	git add .：将文件的修改，文件的新建，添加到暂存区。<br>
+	git add -A：将文件的修改，文件的删除，文件的新建，添加到暂存区。<br>
+	reference:[it add -u与-A .三者的区别](https://blog.csdn.net/GarfieldEr007/article/details/83829693)<br>
 
 
 
